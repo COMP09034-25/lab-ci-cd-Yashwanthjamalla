@@ -12,7 +12,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String getGreeting() {
-        return "Welcome to the Cloud Native Book Catalog!,, I am yashwanth";
+        return "Welcome to the Cloud Native Book Catalog!!! , I can automatically deploy on pushing me to github !! :)";
     }
 
     @GetMapping("/greeting/{name}")
