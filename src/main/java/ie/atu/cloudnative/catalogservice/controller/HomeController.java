@@ -12,12 +12,12 @@ public class HomeController {
 
     @GetMapping("/")
     public String getGreeting() {
-        return "Welcome to the Cloud Native Book Catalog!";
+        return "Welcome to the Cloud Native Book Catalog!,, I am yashwanth";
     }
 
     @GetMapping("/greeting/{name}")
     public String getPersonalGreeting(@PathVariable String name) {
-        return "Hello " + name + ", welcome to the book catalog!,, I am yashwanth ";
+        return "Hello " + name + ", welcome to the book catalog! ";
     }
 
     @GetMapping("/health")
