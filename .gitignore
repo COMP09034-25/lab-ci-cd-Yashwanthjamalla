@@ -1,0 +1,19 @@
+
+# Build artifacts
+build/
+.gradle/
+*.jar
+*.war
+
+# AWS CLI installer
+aws/
+awscliv2.zip
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
